@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
+    "@node-red-contrib-themes/theme-collection": "~3.1.7",
     "node-red-contrib-buffer-parser": "^3.2.2",
     "node-red-contrib-play-audio": "^2.5.0",
     "node-red-node-mysql": "~2.0.0",
