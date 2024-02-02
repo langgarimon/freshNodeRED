@@ -146,7 +146,7 @@ module.exports = {
  ******************************************************************************/
 
     /** the tcp port that the Node-RED web server is listening on */
-    uiPort: process.env.PORT || 1880,
+    uiPort: process.env.PORT || 2052,
 
     /** By default, the Node-RED UI accepts connections on all IPv4 interfaces.
      * To listen on all IPv6 addresses, set uiHost to "::",
@@ -347,6 +347,22 @@ module.exports = {
          * See https://github.com/node-red-contrib-themes/theme-collection for
          * a collection of themes to chose from.
          */
+        page: {
+            title: "LMR",
+            favicon: "C:/Users/lmrso/.node-red/asset/LMR-01.ico", //can use '__dirname + "\\img\\favicon.png" (\\ on Windows)'
+            css: "/absolute/path/to/custom/css/file",
+            scripts: "/absolute/path/to/custom/js/file"  // As of 0.17
+        },
+        header: {
+            title: "LMR TECHNOLOGY SDN BHD",
+            image: "C:/Users/lmrso/.node-red/asset/logo-01.png", // or null to remove image
+            url: "http://nodered.org" // optional url to make the header text/image a link to this url
+        },
+
+        login: {
+            image: "C:/Users/lmrso/.node-red/asset/logo-02.png" // a 256x256 image
+        },
+
         theme: "dark",
         palette: {
             /** The following property can be used to order the categories in the editor
