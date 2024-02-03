@@ -1165,5 +1165,68 @@
                 "file": "\\Users\\lmrso\\.node-red\\node_modules\\node-red-dashboard\\nodes\\ui_spacer.js"
             }
         }
+    },
+    "@ridort/node-red-contrib-socketio-simple": {
+        "name": "@ridort/node-red-contrib-socketio-simple",
+        "version": "0.2.0",
+        "local": true,
+        "user": false,
+        "nodes": {
+            "socket.io server": {
+                "name": "socket.io server",
+                "types": [
+                    "socket.io server"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@ridort/node-red-contrib-socketio-simple",
+                "file": "\\Users\\lmrso\\.node-red\\node_modules\\@ridort\\node-red-contrib-socketio-simple\\src\\socketio-server.js"
+            },
+            "socket.io in": {
+                "name": "socket.io in",
+                "types": [
+                    "socket.io in"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@ridort/node-red-contrib-socketio-simple",
+                "file": "\\Users\\lmrso\\.node-red\\node_modules\\@ridort\\node-red-contrib-socketio-simple\\src\\socketio-in.js"
+            },
+            "socket.io out": {
+                "name": "socket.io out",
+                "types": [
+                    "socket.io out"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@ridort/node-red-contrib-socketio-simple",
+                "file": "\\Users\\lmrso\\.node-red\\node_modules\\@ridort\\node-red-contrib-socketio-simple\\src\\socketio-out.js"
+            },
+            "socket.io join": {
+                "name": "socket.io join",
+                "types": [
+                    "socket.io join"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@ridort/node-red-contrib-socketio-simple",
+                "file": "\\Users\\lmrso\\.node-red\\node_modules\\@ridort\\node-red-contrib-socketio-simple\\src\\socketio-join.js"
+            },
+            "socket.io leave": {
+                "name": "socket.io leave",
+                "types": [
+                    "socket.io leave"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "@ridort/node-red-contrib-socketio-simple",
+                "file": "\\Users\\lmrso\\.node-red\\node_modules\\@ridort\\node-red-contrib-socketio-simple\\src\\socketio-leave.js"
+            }
+        }
     }
 }
