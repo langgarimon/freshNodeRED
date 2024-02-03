@@ -363,7 +363,7 @@ module.exports = {
             image: "C:/Users/lmrso/.node-red/asset/logo-02.png" // a 256x256 image
         },
 
-        theme: "dark",
+        theme: "tokyo-night-light",
         palette: {
             /** The following property can be used to order the categories in the editor
              * palette. If a node's category is not in the list, the category will get
